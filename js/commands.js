@@ -60,6 +60,10 @@ social = [
   '<a href="https://www.instagram.com/sameera_s_w" style="color: skyblue;">Instagram</a>'
 ];
 
+exit = [
+  'terminating...',
+];
+
 
 themes = ['dark', 'light'];
 

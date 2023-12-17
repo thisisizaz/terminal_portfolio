@@ -149,6 +149,10 @@ function commander(cmd) {
     case 'pwd':
       addLine('localhost/sameerasw/terminal', 'color3', 0);
       break;
+    case 'exit':
+      loopLines(exit, 'color margin', 80);
+      setTimeout(window.close, 1000);
+      break;
     default:
       addLine(
         '<span>Command not found. For a list of commands, type <span class="command">\'help\'</span>.</span><br></br>',
