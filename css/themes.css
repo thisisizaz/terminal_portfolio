@@ -1,7 +1,7 @@
 :root {
   /* default dark mode */
   --text-color: #ffffff;
-  --bg-color: #2C001E;
+  --bg-color: #002c29;
   --selection-color: #519975;
   --cursor-color: #73abad;
   --command-color: #73abad;
@@ -18,19 +18,19 @@
 
 [data-theme='dark']{
   --text-color: rgb(255, 255, 255);
-  --bg-color:#2C001E;
-  --selection-color: #ff0000;   /* #519975 */
-  --cursor-color: yellowgreen;                 /*  #73abad; */
-  --command-color: yellowgreen;
-  --liner-color: yellowgreen; /*#519975;*/
-  --index-color:yellowgreen; /*#dcdccc;*/
-  --color2-color: yellowgreen;/* #b89076;*/
-  --cmd-color:yellowgreen;                /* #73abad;*/
-  --cmd-shadow: green;
+  --bg-color:#002b2c;
+  --selection-color: #00ffea;   /* #519975 */
+  --cursor-color: rgb(50, 205, 143);                 /*  #73abad; */
+  --command-color: rgb(50, 205, 143);
+  --liner-color: rgb(50, 205, 143); /*#519975;*/
+  --index-color: rgb(50, 205, 143); /*#dcdccc;*/
+  --color2-color: rgb(50, 205, 143);/* #b89076;*/
+  --cmd-color: rgb(50, 205, 143);                /* #73abad;*/
+  --cmd-shadow: rgb(0, 128, 126);
   --error-color: red;
-  --link-color:  yellowgreen;/*#9c8394;*/
-  --link-hover-color: yellowgreen;/* #519975;*/
-  --link-hover-bg: #211d1b;
+  --link-color: rgb(50, 205, 143);/*#9c8394;*/
+  --link-hover-color: rgb(50, 205, 143);/* #519975;*/
+  --link-hover-bg: #1b211f;
 }
 
 [data-theme='light']{

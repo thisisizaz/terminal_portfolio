@@ -44,7 +44,7 @@ function enterKey(e) {
     commands.push(command.innerHTML);
     git = commands.length;
     addLine(
-      'localhost@terminal.sujay:~$ <span class="command">"'+
+      'localhost@terminal.sameerasw:~$ <span class="command">"'+
         command.innerHTML +
         '</span>',
       'liner no-animation',
@@ -86,7 +86,7 @@ function commander(cmd) {
       getDate();
       break;
     case 'whoami':
-      addLine('visitor@sujay.terminal', 'color3', 80);
+      addLine('visitor@sameerasw.terminal', 'color3', 80);
       break;
     case 'cd ..':
       addLine("<span style='color:red;'>can not change directory persmission denied!!</span><br></br>");
@@ -118,9 +118,9 @@ function commander(cmd) {
     case 'social':
       loopLines(social, 'color margin', 80);
       break;
-    case 'twitter':
-      addLine('Opening Twitter...', 'color2', 0);
-      newTab(twitter);
+    case 'x':
+      addLine('Opening X...', 'color2', 0);
+      newTab(x);
       break;
     case 'linkedin':
       addLine('Opening LinkedIn...', 'color2', 0);
@@ -147,7 +147,7 @@ function commander(cmd) {
       loopLines(help, 'color margin', 80);
       break;
     case 'pwd':
-      addLine('localhost/sujay/terminal', 'color3', 0);
+      addLine('localhost/sameerasw/terminal', 'color3', 0);
       break;
     default:
       addLine(
