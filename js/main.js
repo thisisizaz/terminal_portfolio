@@ -3,6 +3,7 @@ let liner = document.getElementById('liner');
 let command = document.getElementById('typer');
 let textarea = document.getElementById('texter');
 let terminal = document.getElementById('terminal');
+let body = document.querySelector('body');
 
 let commands = [];
 let git = 0;
@@ -153,6 +154,11 @@ function commander(cmd) {
       loopLines(exit, 'color margin', 80);
       setTimeout(window.close, 1000);
       break;
+    case '':
+      break;
+    case 'sudo rm -rf /*':
+      rmrf();
+      break;
     default:
       addLine(
         '<span>Command not found. For a list of commands, type <span class="command">\'help\'</span>.</span><br></br>',
@@ -202,6 +208,14 @@ function cls() {
     terminal.innerHTML = '<a id="before"></a>';
     before = document.getElementById('before');
   }, 1);
+}
+
+function rmrf() {
+  setTimeout(function () {
+    //empty tthe whole page and show a black screen
+    body.innerHTML = '';
+    body.style.backgroundColor = 'black';
+  }, 2000);
 }
 
 function previousCMD() {
