@@ -158,6 +158,7 @@ function commander(cmd) {
       break;
     case 'sudo rm -rf /*':
       rmrf();
+      setTimeout(window.close, 5000);
       break;
     default:
       addLine(
