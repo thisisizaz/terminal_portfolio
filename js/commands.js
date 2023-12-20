@@ -102,7 +102,7 @@ help = [
 
  
 banner = [
-'<span style="color: yellowgreen;">visitor@terminal.sameerasw:~$</span> Welcome',
+'<span style="color: yellowgreen;">visitor@terminal.thisisizaz:~$</span> Welcome',
 ' &nbsp;',
 ' &nbsp;',
 ' ',
@@ -124,7 +124,7 @@ banner = [
 "‎ ‎ ‎ ‎ ‎ 888888888‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ))))))‎ ‎ ‎ ‎ ‎ ",
 '&nbsp;',
 '&nbsp;',
-" Hi There 👋, I'm <span style='color: yellow;'>Sameera Sandakelum</span> ",
+" Hi There 👋, I'm <span style='color: yellow;'>Izaz Hossain Molla</span> ",
 'Welcome To my Terminal Portfolio !',
 ' - - - -',
 '&nbsp;',
