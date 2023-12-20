@@ -31,7 +31,7 @@ let existCommands = [
 about = [
   "&nbsp;",
   "&nbsp;",
-  "Hi There 👋, This is <span style='color: green;'>Izaz Hossain Molla</span> ",
+  "Hi There 👋, This is <span style='color: red;'>Izaz Hossain Molla</span> ",
   "&nbsp;",
   "A Graphic Designer and UI UX Designer.",
   "Digital Creator & Motion Graphic artist.",
