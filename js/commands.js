@@ -34,7 +34,7 @@ about = [
   "Hi There 👋, This is <span style='color: green;'>Izaz Hossain Molla</span> ",
   "&nbsp;",
   "A Graphic Designer and UI UX Designer.",
-  "Digital Creator & Motion Graphic.",
+  "Digital Creator & Motion Graphic artist.",
   "Freelencer and tech enthugiast who loves to try new things.",
   "&nbsp;",
   "&nbsp;",
