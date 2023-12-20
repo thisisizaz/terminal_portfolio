@@ -18,7 +18,7 @@
 
 [data-theme='dark']{
   --text-color: rgb(255, 255, 255);
-  --bg-color:#002b2c;
+  --bg-color:#131313;
   --selection-color: #00ffea;   /* #519975 */
   --cursor-color: rgb(50, 205, 143);                 /*  #73abad; */
   --command-color: rgb(50, 205, 143);
